@@ -1,8 +1,15 @@
+venv/
+ENV/
+.envrc
+.idea/
+*.swp
+*.swo
 # Ignore everything
 *
 
 # But not these files...
 !*.py
+!README.md
 
 # Never ignore .gitignore itself
 !.gitignore
