@@ -1,0 +1,25 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.py
+
+# Never ignore .gitignore itself
+!.gitignore
+
+# Exclude common OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+ENV/
+.envrc
+.idea/
+*.swp
+*.swo
