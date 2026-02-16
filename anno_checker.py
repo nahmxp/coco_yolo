@@ -63,9 +63,9 @@ def visualize_yolo_polygons(image_path, label_path, output_path=None, class_name
 
 # Example usage
 if __name__ == "__main__":
-    image_file = "yolo_dataset_aug/images/test/1758522760949-WhatsApp_Image_2025-09-20_at_3.05.49_PM_rot270.jpg"     # your test image
-    label_file = "yolo_dataset_aug/labels/test/1758522760949-WhatsApp_Image_2025-09-20_at_3.05.49_PM_rot270.txt"     # polygon labels
-    output_file = "output.jpg"
+    image_file = "1758522761345-WhatsApp_Image_2025-09-20_at_3.05.50_PM_(1)_shear_x-15.jpg"     # your test image
+    label_file = "1758522761345-WhatsApp_Image_2025-09-20_at_3.05.50_PM_(1)_shear_x-15.txt"     # polygon labels
+    output_file = "output1.jpg"
 
     # optional class names
     class_list = ["person", "car", "dog"]
